@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {   
+ background: linear-gradient(to bottom right, #f5f7fa, #e4ecf7);
+  color: #333;
+
+  /* background-color: #f6f8fc;
+  color: #333; */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar .nav-links a:hover {
+  color: #4a63e7;
+}
+
+.navbar .logo {
+display: flex;
+justify-content: center;
+gap: 10px;
+
+}
+
+.navbar .logo .carlogo {
+width: 1.5rem;
+}
+
+/* Cards Section */
+.main-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+  gap: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  width: 400px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4a63e7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #3c50c0;
+}
+
+/* Footer */
+.footer {
+  background-color: #4a63e7;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 1rem 0;
+}
+
+.footer-section h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 5px 0;
+}
+
+.footer-section .social-icons a {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* *************************************************************************************** */
+/* Luxury Car Section */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(to bottom right, #fdfbfb, #ebedee, #c7d2fe);  color: #333;
+  padding: 0;
+}
+
+/* remove */
+/* Top Navbar */
+.navbar .nav-links a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+
+.visit-btn {
+  background-color: #526cec;
+  color: white;
+  width: 100px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none; 
+  display: flex;        
+  align-items: center;    
+  justify-content: center;
+}
+
+
+.navbar .visit-btn:hover {
+  background-color: #3a50c5;
+}
+
+
+/* Hero Section */
+.lux-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.filter-buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c0cfff;
+  color: #333;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.filter-buttons .active {
+  background-color: #4a63e7;
+  color: white;
+}
+
+.hero-image img {
+  width: 330px;
+  max-width: 100%;
+}
+
+/* Cards Section */
+.lux-cards {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.lux-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.lux-card:hover {
+  transform: translateY(-5px);
+}
+
+.lux-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.lux-card p {
+  margin: 0.5rem 0;
+}
+
+.lux-card small {
+  color: #555;
+}
+
+.img-placeholder {
+   margin-top: 1rem;
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbd5e0;
+}
+
+.img-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
